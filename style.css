@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER nav */
+nav {
+    background-color: #04E1AF;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    flex-basis: 16%;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+a {
+    display: block;
+    background-color: #04E1AF;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: arial;
+    height: 10vh;
+    line-height: 10vh;
+    cursor: pointer;
+}
+
+nav ul li:hover a {
+    background-color: black;
+    color: #04E1AF;
+}
+
+/* HEADER banner */
+.banner {
+    position: relative;
+    margin: 0 auto;
+    height: calc(100vh - 10vh);
+    max-width: 1920px;
+    background-color: #04E1AF;
+    overflow: hidden;
+}
+
+.banner>* {
+    position: absolute;
+    font-family: arial;
+}
+
+/* HEADER Banner info */
+.banner .info {
+    top: 30%;
+    right: 10%;
+    width: 30vw;
+    height: 25vh;
+    padding: 30px;
+    background-color: rgba(4, 225, 175, 0.5);
+    border-radius: 20px;
+    z-index: 1;
+
+}
+
+.banner .info h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.banner .info button {
+    display: block;
+    padding: 5px 30px;
+    margin: 5% auto;
+    background-color: #04E1AF;
+    color: black;
+    border-style: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner .info button:hover {
+    background-color: black;
+    color: #04E1AF;
+}
+
+
+/* HEADER Banner img */
+.banner img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.banner img:nth-of-type(2) {
+    opacity: 0;
+}
