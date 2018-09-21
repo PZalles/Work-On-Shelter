@@ -86,12 +86,6 @@ nav ul li:hover a {
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
-    transition: .2s;
-}
-
-.banner .info button:hover {
-    background-color: black;
-    color: #04E1AF;
 }
 
 
@@ -110,23 +104,23 @@ nav ul li:hover a {
 
 /* GALLERY1 */
 .gallery1 {
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    background-color: #04E1AF;
+    height: 100vh;
+    background-color: black;
 }
 
 .gallery1 .description {
-    /* flex-basis: 20vh; */
-    padding: 30px 0;
+    padding: 50px 0;
     text-align: center;
-    background-color: g#04E1AF;
+    background-color: #04E1AF;
     font-family: arial;
     font-size: 30px;
 }
 
 .description p {
-    padding: 20px 200px 0 200px;
+    padding: 20px 100px 0 100px;
     font-size: 20px;
 }
 
@@ -135,11 +129,26 @@ nav ul li:hover a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-around;
+    align-content: center;
+    background-color: black;
+}
+
+.gallery1 button {
+    padding: 10px;
+    margin-left: 80%;
+    margin-bottom: 30px;
+    background-color: #04E1AF;
+    color: black;
+    border-style: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 10%;
 }
 
 .gallery1 .dogs div {
-    flex-basis: 24%;
+    flex-basis: 23%;
 }
 
 .dogs div img {
