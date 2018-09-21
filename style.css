@@ -138,6 +138,10 @@ nav ul li:hover a {
     background-color: black;
 }
 
+.gallery1 .dogs div {
+    cursor: pointer;
+}
+
 .gallery1 button {
     padding: 10px 0;
     margin: 0 auto;
@@ -194,6 +198,10 @@ nav ul li:hover a {
     justify-content: space-between;
     align-content: center;
     background-color: black;
+}
+
+.gallery2 .cats div {
+    cursor: pointer;
 }
 
 .gallery2 button {
