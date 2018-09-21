@@ -86,6 +86,11 @@ nav ul li:hover a {
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
+    transition: .2s;
+}
+
+.banner .info button:hover {
+    box-shadow: 0 0 0 2px rgb(12, 12, 12), 0 0 0 4px rgb(4, 225, 175);
 }
 
 
@@ -134,9 +139,9 @@ nav ul li:hover a {
 }
 
 .gallery1 button {
-    padding: 10px;
-    margin-left: 80%;
-    margin-bottom: 30px;
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
     background-color: #04E1AF;
     color: black;
     border-style: none;
@@ -144,7 +149,12 @@ nav ul li:hover a {
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
-    width: 10%;
+    width: 200px;
+    transition: .2s;
+}
+
+.gallery1 button:hover {
+    box-shadow: 0 0 0 2px rgb(12, 12, 12), 0 0 0 4px rgb(4, 225, 175);
 }
 
 .gallery1 .dogs div {
@@ -187,9 +197,9 @@ nav ul li:hover a {
 }
 
 .gallery2 button {
-    padding: 10px;
-    margin-left: 80%;
-    margin-bottom: 30px;
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
     background-color: #04E1AF;
     color: black;
     border-style: none;
@@ -197,7 +207,12 @@ nav ul li:hover a {
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
-    width: 10%;
+    width: 200px;
+    transition: .2s;
+}
+
+.gallery2 button:hover {
+    box-shadow: 0 0 0 2px rgb(12, 12, 12), 0 0 0 4px rgb(4, 225, 175);
 }
 
 .gallery2 .cats div {
@@ -206,4 +221,40 @@ nav ul li:hover a {
 
 .cats div img {
     width: 100%;
+}
+
+/* FOOTER */
+footer {
+    position: relative;
+    height: 10vh;
+    background-color: rgb(4, 225, 175);
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+}
+
+footer p {
+    font-size: 20px;
+    color: black;
+}
+
+footer button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50px;
+    background-color: rgb(12, 12, 12);
+    color: rgb(4, 225, 175);
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    padding: 5px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+footer button:hover {
+    box-shadow: 0 0 0 2px rgb(4, 225, 175), 0 0 0 4px rgb(12, 12, 12);
 }
