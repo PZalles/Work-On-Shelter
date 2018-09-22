@@ -16,20 +16,19 @@ nav {
     background-color: #04E1AF;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
 }
 
-li {
+nav ul li {
     flex-basis: 16%;
     text-align: center;
-    margin: 0 10px 0 10px;
 }
 
-a {
+nav ul li a {
     display: block;
     background-color: #04E1AF;
     color: black;
@@ -66,7 +65,7 @@ nav ul li:hover a {
 .banner .info {
     top: 30%;
     right: 10%;
-    width: 30vw;
+    width: 35vw;
     height: 25vh;
     padding: 30px;
     background-color: rgba(4, 225, 175, 0.5);
@@ -99,12 +98,26 @@ nav ul li:hover a {
     transition: .2s;
 }
 
+.banner .info button a {
+    color: black;
+    text-decoration: none;
+}
+
 .banner .info button:hover {
     box-shadow: 0 0 0 2px black, 0 0 0 4px rgb(4, 225, 175);
     background-color: black;
     color: #04E1AF;
 }
 
+.banner .info button:hover a {
+    color: #04E1AF;
+}
+
+@media (max-width: 1635px) {
+    .banner .info {
+        width: 45vw;
+    }
+}
 
 /* HEADER banner img */
 .banner img {
@@ -170,6 +183,7 @@ nav ul li:hover a {
     color: rgba(4, 225, 175);
     text-align: center;
     font-family: 'Merienda', cursive;
+    line-height: 100%;
     font-size: 30px;
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 20px;
@@ -278,6 +292,7 @@ nav ul li:hover a {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
+    line-height: 110%;
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 20px;
     opacity: 0;
