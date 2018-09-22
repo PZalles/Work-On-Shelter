@@ -5,7 +5,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
+
+
 
 body {
     background-color: black;
@@ -69,6 +72,7 @@ nav ul li:hover a {
 
 /* HEADER banner info */
 .banner .info {
+    text-align: center;
     top: 30%;
     right: 10%;
     width: 35vw;
@@ -88,34 +92,77 @@ nav ul li:hover a {
     color: black;
 }
 
-.banner .info button {
+.banner .info a {
     display: block;
-    padding: 5px 30px;
-    margin: 5% auto;
-    background-color: #04E1AF;
-    color: black;
-    border-style: none;
-    text-transform: uppercase;
-    border-radius: 10px;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 0;
     font-size: 20px;
     font-family: 'Merienda', cursive;
-    cursor: pointer;
-    transition: .2s;
-}
-
-.banner .info button a {
-    color: black;
-    text-decoration: none;
-}
-
-.banner .info button:hover {
-    box-shadow: 0 0 0 2px black, 0 0 0 4px rgb(4, 225, 175);
     background-color: black;
     color: #04E1AF;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    animation: shakes 5s linear infinite;
 }
 
-.banner .info button:hover a {
-    color: #04E1AF;
+@keyframes shakes {
+    0% {
+        transform: translateX(0)
+    }
+
+    90% {
+        transform: translateX(0)
+    }
+
+    91% {
+        transform: translateX(20px)
+    }
+
+    92% {
+        transform: translateX(-20px)
+    }
+
+    93% {
+        transform: translateX(20px)
+    }
+
+    94% {
+        transform: translateX(-20px)
+    }
+
+    95% {
+        transform: translateX(20px)
+    }
+
+    96% {
+        transform: translateX(-20px)
+    }
+
+    97% {
+        transform: translateX(20px)
+    }
+
+    98% {
+        transform: translateX(-20px)
+    }
+
+    99% {
+        transform: translateX(20px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+.banner .info a:hover {
+    box-shadow: 0 0 0 2px black, 0 0 0 4px rgb(4, 225, 175);
+    background-color: #04E1AF;
+    color: black;
 }
 
 /* HEADER banner img */
