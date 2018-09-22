@@ -133,13 +133,46 @@ nav ul li:hover a {
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     background-color: black;
 }
 
 .gallery1 .dogs div {
+    flex-basis: 23%;
     cursor: pointer;
+    /* position: relative; */
+    /* line-height: 0; usuwa linie miedzy wierszami zdjec, lepiej zadziala float:left*/
+}
+
+/* Tlo pojawiajace sie po najechaniu na img */
+.gallery1 .dogs div:nth-child(1) {
+    position: relative;
+}
+
+.gallery1 .dogs div h3 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    position: absolute;
+    color: rgba(4, 225, 175);
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    background-color: rgba(12, 12, 12, 0.6);
+    opacity: 0;
+    transition: .3s;
+}
+
+.gallery1 .dogs div:hover h3 {
+    opacity: 1;
+}
+
+
+.gallery1 .dogs div img {
+    width: 100%;
 }
 
 .gallery1 button {
@@ -159,14 +192,6 @@ nav ul li:hover a {
 
 .gallery1 button:hover {
     box-shadow: 0 0 0 2px rgb(12, 12, 12), 0 0 0 4px rgb(4, 225, 175);
-}
-
-.gallery1 .dogs div {
-    flex-basis: 23%;
-}
-
-.dogs div img {
-    width: 100%;
 }
 
 /* GALLERY2 */
