@@ -73,12 +73,12 @@ nav ul li:hover a {
 /* HEADER banner info */
 .banner .info {
     text-align: center;
-    top: 30%;
+    top: 50%;
     right: 10%;
     width: 35vw;
     height: 25vh;
     padding: 30px;
-    background-color: rgba(4, 225, 175, 0.5);
+    background-color: rgba(4, 225, 175, 0.3);
     z-index: 1;
 
 }
@@ -172,10 +172,42 @@ nav ul li:hover a {
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
+    opacity: 0;
+    animation: banner 40s linear infinite;
 }
 
 .banner img:nth-of-type(2) {
-    opacity: 0;
+    animation-delay: 10s;
+}
+
+.banner img:nth-of-type(3) {
+    animation-delay: 20s;
+}
+
+.banner img:nth-of-type(4) {
+    animation-delay: 30s;
+}
+
+@keyframes banner {
+    0% {
+        opacity: 0;
+    }
+
+    2% {
+        opacity: 1;
+    }
+
+    28% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 /* GALLERY1 */
