@@ -8,10 +8,16 @@
 }
 
 body {
+    background-color: black;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* HEADER nav */
+header {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: #04E1AF;
 }
@@ -69,7 +75,6 @@ nav ul li:hover a {
     height: 25vh;
     padding: 30px;
     background-color: rgba(4, 225, 175, 0.5);
-    /* border-radius: 20px; */
     z-index: 1;
 
 }
@@ -113,12 +118,6 @@ nav ul li:hover a {
     color: #04E1AF;
 }
 
-@media (max-width: 1635px) {
-    .banner .info {
-        width: 45vw;
-    }
-}
-
 /* HEADER banner img */
 .banner img {
     top: 50%;
@@ -134,10 +133,12 @@ nav ul li:hover a {
 
 /* GALLERY1 */
 .gallery1 {
+    max-width: 1920px;
+    margin: 0 auto;
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
     background-color: black;
 }
 
@@ -166,6 +167,7 @@ nav ul li:hover a {
 
 .gallery1 .dogs div {
     flex-basis: 23%;
+    text-align: center;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -183,7 +185,7 @@ nav ul li:hover a {
     color: rgba(4, 225, 175);
     text-align: center;
     font-family: 'Merienda', cursive;
-    line-height: 100%;
+    /* line-height: 100%; */
     font-size: 30px;
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 20px;
@@ -212,7 +214,6 @@ nav ul li:hover a {
     opacity: 1;
     transform: translateY(0);
 }
-
 
 .gallery1 .dogs div img {
     width: 100%;
@@ -243,10 +244,12 @@ nav ul li:hover a {
 
 /* GALLERY2 */
 .gallery2 {
+    max-width: 1920px;
+    margin: 0 auto;
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
     background-color: black;
 }
 
@@ -275,6 +278,7 @@ nav ul li:hover a {
 
 .gallery2 .cats div {
     flex-basis: 23%;
+    text-align: center;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -290,9 +294,9 @@ nav ul li:hover a {
     position: absolute;
     color: rgba(4, 225, 175);
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merienda', cursive;
     font-size: 30px;
-    line-height: 110%;
+    /* line-height: 110%; */
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 20px;
     opacity: 0;
@@ -350,6 +354,8 @@ nav ul li:hover a {
 
 /* FOOTER */
 footer {
+    max-width: 1920px;
+    margin: 0 auto;
     position: relative;
     height: 10vh;
     background-color: rgb(4, 225, 175);
