@@ -1,4 +1,4 @@
-Website as training project with group using scrum.
+Website as training project.
 
 Shelter for dogs and cats.
 
