@@ -74,7 +74,7 @@ nav ul li:hover a {
     top: 50%;
     right: 10%;
     width: 30vw;
-    height: 25vh;
+    height: 35vh;
     padding: 30px;
     background-color: rgba(4, 225, 175, 0.4);
     z-index: 1;
@@ -332,7 +332,7 @@ nav ul li:hover a {
 
 @media(max-width: 1635px) {
     .banner .info {
-        height: 30vh;
+        height: 35vh;
     }
 }
 
