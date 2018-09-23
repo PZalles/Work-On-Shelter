@@ -8,8 +8,6 @@
     outline: none;
 }
 
-
-
 body {
     background-color: black;
     font-family: 'Roboto Condensed', sans-serif;
@@ -106,56 +104,56 @@ nav ul li:hover a {
     border-radius: 10px;
     cursor: pointer;
     transition: .2s;
-    animation: shakes 5s linear infinite;
+    animation: shakes 7s linear infinite;
 }
 
 @keyframes shakes {
     0% {
-        transform: translateX(0)
+        transform: translateX(0) rotate(0);
     }
 
     90% {
-        transform: translateX(0)
+        transform: translateX(0) rotate(0);
     }
 
     91% {
-        transform: translateX(20px)
+        transform: translateX(10px) rotate(10deg);
     }
 
     92% {
-        transform: translateX(-20px)
+        transform: translateX(-10px) rotate(-10deg);
     }
 
     93% {
-        transform: translateX(20px)
+        transform: translateX(10px) rotate(10deg);
     }
 
     94% {
-        transform: translateX(-20px)
+        transform: translateX(-10px) rotate(-10deg);
     }
 
     95% {
-        transform: translateX(20px)
+        transform: translateX(10px) rotate(10deg);
     }
 
     96% {
-        transform: translateX(-20px)
+        transform: translateX(-10px) rotate(-10deg);
     }
 
     97% {
-        transform: translateX(20px)
+        transform: translateX(10px) rotate(10deg);
     }
 
     98% {
-        transform: translateX(-20px)
+        transform: translateX(-10px) rotate(-10deg);
     }
 
     99% {
-        transform: translateX(20px)
+        transform: translateX(10px) rotate(10deg);
     }
 
     100% {
-        transform: translateX(0)
+        transform: translateX(0) rotate(0);
     }
 }
 
@@ -173,24 +171,25 @@ nav ul li:hover a {
     min-width: 100%;
     min-height: 100%;
     opacity: 0;
-    animation: banner 40s linear infinite;
+    animation: banner 28s linear infinite;
 }
 
 .banner img:nth-of-type(2) {
-    animation-delay: 10s;
+    animation-delay: 7s;
 }
 
 .banner img:nth-of-type(3) {
-    animation-delay: 20s;
+    animation-delay: 14s;
 }
 
 .banner img:nth-of-type(4) {
-    animation-delay: 30s;
+    animation-delay: 21s;
 }
 
 @keyframes banner {
     0% {
         opacity: 0;
+        transform: translate(-50%, -50%) scale(1);
     }
 
     2% {
@@ -207,6 +206,7 @@ nav ul li:hover a {
 
     100% {
         opacity: 0;
+        transform: translate(-50%, -50%) scale(1.2);
     }
 }
 
