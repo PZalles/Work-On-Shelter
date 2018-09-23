@@ -125,8 +125,7 @@ body {
     color: #04E1AF;
 }
 
-@media(max-width: 1635px) {
-
+@media(max-width: 1720px) {
     .gallery1 .dogs div h3 {
         font-size: 25px;
     }

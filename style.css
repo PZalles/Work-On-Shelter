@@ -324,13 +324,15 @@ nav ul li:hover a {
     color: #04E1AF;
 }
 
+@media(max-width: 1720px) {
+    .gallery1 .dogs div h3 {
+        font-size: 25px;
+    }
+}
+
 @media(max-width: 1635px) {
     .banner .info {
         height: 30vh;
-    }
-
-    .gallery1 .dogs div h3 {
-        font-size: 25px;
     }
 }
 
@@ -478,8 +480,7 @@ nav ul li:hover a {
     color: #04E1AF;
 }
 
-@media(max-width: 1635px) {
-
+@media(max-width: 1720px) {
     .gallery2 .cats div h3 {
         font-size: 25px;
     }
