@@ -73,12 +73,11 @@ nav ul li:hover a {
     text-align: center;
     top: 50%;
     right: 10%;
-    width: 35vw;
+    width: 30vw;
     height: 25vh;
     padding: 30px;
     background-color: rgba(4, 225, 175, 0.4);
     z-index: 1;
-
 }
 
 .banner .info h2 {
@@ -253,6 +252,8 @@ nav ul li:hover a {
     /* line-height: 0; usuwa linie miedzy wierszami zdjec, lepiej zadziala float:left*/
 }
 
+
+
 /* Tlo pojawiajace sie po najechaniu na img */
 .gallery1 .dogs div h3 {
     width: 100%;
@@ -321,6 +322,48 @@ nav ul li:hover a {
     box-shadow: 0 0 0 2px rgb(12, 12, 12), 0 0 0 4px rgb(4, 225, 175);
     background-color: black;
     color: #04E1AF;
+}
+
+@media(max-width: 1635px) {
+    .banner .info {
+        height: 30vh;
+    }
+
+    .gallery1 .dogs div h3 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .gallery1 .dogs {
+        align-content: space-around;
+    }
+
+    .gallery1 .dogs div h3 {
+        font-size: 21px;
+    }
+}
+
+@media(max-width: 1280px) {
+
+    .gallery1 {
+        height: 180vh;
+    }
+
+    .gallery1 .dogs div {
+        flex-basis: 40%;
+    }
+
+
+    .gallery1 .dogs div img {
+        width: 80%;
+    }
+
+    .gallery1 .dogs div h3 {
+        width: 80%;
+        left: 10%;
+        font-size: 25px;
+    }
 }
 
 /* GALLERY2 */
@@ -433,6 +476,45 @@ nav ul li:hover a {
     box-shadow: 0 0 0 2px rgb(12, 12, 12), 0 0 0 4px rgb(4, 225, 175);
     background-color: black;
     color: #04E1AF;
+}
+
+@media(max-width: 1635px) {
+
+    .gallery2 .cats div h3 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .gallery2 .cats {
+        align-content: space-around;
+    }
+
+    .gallery2 .cats div h3 {
+        font-size: 21px;
+    }
+}
+
+@media(max-width: 1280px) {
+
+    .gallery2 {
+        height: 180vh;
+    }
+
+    .gallery2 .cats div {
+        flex-basis: 40%;
+    }
+
+
+    .gallery2 .cats div img {
+        width: 80%;
+    }
+
+    .gallery2 .cats div h3 {
+        width: 80%;
+        left: 10%;
+        font-size: 25px;
+    }
 }
 
 /* FOOTER */
