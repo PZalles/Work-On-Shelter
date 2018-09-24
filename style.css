@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    background-color: #04E1AF;
+    background-color: white;
 }
 
 nav ul {
@@ -47,6 +47,21 @@ nav ul li a {
     line-height: 10vh;
     cursor: pointer;
     transition: .3s;
+}
+
+nav ul div {
+    position: relative;
+    width: 200px;
+    height: 10vh;
+}
+
+nav ul div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
 }
 
 nav ul li:hover a {
@@ -218,13 +233,13 @@ nav ul li:hover a {
     display: flex;
     flex-direction: column;
     height: 110vh;
-    background-color: black;
+    background-color: white;
 }
 
 .gallery1 .description {
     padding: 50px 0;
     text-align: center;
-    background-color: #04E1AF;
+    background-color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
 }
@@ -241,7 +256,7 @@ nav ul li:hover a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    background-color: black;
+    background-color: white;
 }
 
 .gallery1 .dogs div {
@@ -377,13 +392,13 @@ nav ul li:hover a {
     display: flex;
     flex-direction: column;
     height: 110vh;
-    background-color: black;
+    background-color: white;
 }
 
 .gallery2 .description {
     padding: 50px 0;
     text-align: center;
-    background-color: #04E1AF;
+    background-color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
 }
@@ -400,7 +415,7 @@ nav ul li:hover a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    background-color: black;
+    background-color: white;
 }
 
 .gallery2 .cats div {
@@ -525,7 +540,7 @@ footer {
     margin: 0 auto;
     position: relative;
     height: 8vh;
-    background-color: rgb(4, 225, 175);
+    background-color: white;
     color: white;
     text-align: center;
 }
