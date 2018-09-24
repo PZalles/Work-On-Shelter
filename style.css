@@ -72,9 +72,10 @@ nav ul li:hover a {
 .banner .info {
     text-align: center;
     top: 50%;
+    transform: translateY(-50%);
     right: 10%;
-    width: 30vw;
-    height: 35vh;
+    width: 500px;
+    height: 300px;
     padding: 30px;
     background-color: rgba(4, 225, 175, 0.4);
     z-index: 1;
@@ -330,11 +331,11 @@ nav ul li:hover a {
     }
 }
 
-@media(max-width: 1635px) {
+/* @media(max-width: 1635px) {
     .banner .info {
-        height: 35vh;
+        height: 40vh;
     }
-}
+} */
 
 @media(max-width: 1440px) {
     .gallery1 .dogs {
